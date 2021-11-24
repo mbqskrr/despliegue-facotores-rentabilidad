@@ -20,5 +20,7 @@ from . import views
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-    path('', views.Swiset)
+    path('', views.Swiset),
+    path('Result/', views.Result, name = "Result"),
+
 ]
